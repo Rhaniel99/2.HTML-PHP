@@ -1,0 +1,49 @@
+table{
+	background-color: yellow;
+	color: blue;
+	text-align: center;
+	border-collapse: collapse;
+}
+th, td{
+	min-width: 150px;
+	border: 1px solid black;
+}
+ul{
+	display: table-cell;
+	float: left;
+	padding-left: 300px;
+}
+ul li{
+	padding-left: 120px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	list-style: none;
+}
+ul li a{
+	font-family: cursive;
+	font-size: 19px;
+	color:#053138;
+	padding: 5px;
+	text-decoration: none;
+	}
+ul li a:hover{
+	background-color: black;
+	color: yellow;
+	border-radius: 5px;
+}
+h1{
+	font-family:Courier, monospace;
+	color: #00261C;
+	text-align: center;
+	padding-bottom: 50px;
+	}
+
+
+#Slip img{	
+	padding-right: 400px;
+	display: table-cell;
+	border-radius: 5px;
+	height: 325px;
+	margin: 10px;
+	float: right;
+}

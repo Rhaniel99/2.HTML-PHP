@@ -1,0 +1,43 @@
+@keyframes bounce{
+	0%, 20%, 60%, 100%{
+		-webkit-transform: translateY(0);
+		transform: translateY(0);
+
+	}
+
+	40% {
+		-webkit-transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		-webkit-transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+
+}
+ul li{
+	display: inline;
+	list-style: none;
+}
+#stars p{
+	padding-bottom: 150px;
+}
+#stars button{
+	color: #C4F2D8;
+	font-family: cursive;
+	border:none;
+	background:#405173;
+	padding:28px;
+	margin:10px;
+	font-size: 15px;
+	line-height: 10px;
+	border-radius: 10px;
+	position: relative;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: all 400ms ease;
+}
+#stars button:hover{
+	animation: bounce 1s;
+}
